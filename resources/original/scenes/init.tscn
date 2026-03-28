@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://seb6hagw6axh"]
+
+[ext_resource type="Theme" uid="uid://bqq8rcrvy1f1i" path="res://resources/original/themes/mainTheme.tres" id="1_ao8m3"]
+[ext_resource type="Script" uid="uid://b3bb0qr2nlo8b" path="res://resources/original/scripts/init.gd" id="2_w55bv"]
+
+[node name="Init" type="Node2D" unique_id=505996924]
+
+[node name="Label" type="Label" parent="." unique_id=1871488953]
+offset_right = 171.0
+offset_bottom = 23.0
+theme = ExtResource("1_ao8m3")
+text = "Initalization State"
+
+[node name="Script" type="Node" parent="." unique_id=201013818]
+script = ExtResource("2_w55bv")

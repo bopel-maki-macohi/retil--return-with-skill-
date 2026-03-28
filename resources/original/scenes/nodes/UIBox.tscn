@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://kikwr0g6hd2y"]
+
+[ext_resource type="Shader" uid="uid://bh5itjb3k0dh5" path="res://resources/unoriginal/creatorbyte/pixel-text.gdshader" id="1_72qhu"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_uimt4"]
+shader = ExtResource("1_72qhu")
+shader_parameter/threshold = 1.0
+
+[node name="UiBox" type="Control" unique_id=465464278]
+material = SubResource("ShaderMaterial_uimt4")
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2

@@ -1,0 +1,9 @@
+// https://godotshaders.com/shader/pixel-text-shader/
+
+shader_type canvas_item;
+
+uniform float threshold : hint_range(0.0, 1.0) = 0.5;
+
+void fragment() {
+    COLOR.a = step(threshold, COLOR.a);
+}
